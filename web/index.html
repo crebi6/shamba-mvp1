@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shamba.ai</title>
+    <link rel="stylesheet" href="../web/style.css">
+</head>
+<body>
+    <!-- Top Bar with Circular Images and Disease Names -->
+    <div class="image-bar">
+        <div class="image-container">
+            <img src="res/blight.jpeg" alt="Blight">
+            <p>Blight</p>
+        </div>
+        <div class="image-container">
+            <img src="res/common rust.jpeg" alt="Common Rust">
+            <p>Common Rust</p>
+        </div>
+        <div class="image-container">
+            <img src="res/gray spot.jpeg" alt="Gray Leaf Spot">
+            <p>Gray Leaf Spot</p>
+        </div>
+        <div class="image-container">
+            <img src="res/ear rot.jpeg" alt="Maize Ear Rot">
+            <p>Maize Ear Rot</p>
+        </div>
+        <div class="image-container">
+            <img src="res/armyworm.jpeg" alt="Fall Armyworm">
+            <p>Fall Armyworm</p>
+        </div>
+        <div class="image-container">
+            <img src="res/stem borer.jpeg" alt="Stem Borer">
+            <p>Stem Borer</p>
+        </div>
+        <div class="image-container">
+            <img src="res/healthy.jpeg" alt="Healthy Plant">
+            <p>Healthy Plant</p>
+        </div>
+    </div>
+
+    <!-- Drag and Drop Area -->
+    <div class="drop-zone" id="drop-zone">
+        <p>Drag and drop your files here or click to upload</p>
+        <input type="file" id="fileInput" accept="image/*" hidden>
+    </div>
+    
+
+    <script src="../web/script.js"></script>
+</body>
+</html>
